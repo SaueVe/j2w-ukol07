@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font: 12pt 'Times New Roman', sans-serif;
+    color: black;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: #e6f2ff url(https://source.unsplash.com/uXtq8xGUX5U) center center/cover no-repeat;
+}
+
+
+
+a {
+    color: Blue;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    background-color: #cce6ff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    width: 36em;
+    border: 1px solid gray;
+    background-color: #cce6ff;
+    margin: 1em;
+    padding: 1.5em;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+h1 {
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.back-link {
+    display: block;
+    margin-top: 1rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+
+
+
+}
