@@ -19,7 +19,10 @@ body {
     background: #e6f2ff url(https://source.unsplash.com/uXtq8xGUX5U) center center/cover no-repeat;
 }
 
-
+h4 {
+    font: 12pt 'Times New Roman', sans-serif;
+    color: black;
+}
 
 a {
     color: Blue;
@@ -86,7 +89,7 @@ form input[type="submit"] {
 
 h1 {
     margin-left: 15px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 form input[type="submit"]:hover {

@@ -12,7 +12,7 @@
         <tbody>
             [#list posts as post ]
                 <tr>
-                    <td>${post.title}</td><td>${post.author}</td><td>${post.perex?no_esc}</td><td>${post.getPublished()?date}</td><td class="read-button"><a href="/post/${post.slug}">Detail</a></td>
+                    <td><b>${post.title}</b></td><td>${post.author}</td><td>${post.perex?no_esc}</td><td>${post.getPublished()?date}</td><td class="read-button"><a href="/post/${post.slug}">Detail</a></td>
                 </tr>
             [/#list]
         </tbody>
