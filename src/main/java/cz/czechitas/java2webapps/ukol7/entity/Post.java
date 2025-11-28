@@ -10,6 +10,7 @@ import java.util.Date;
 
 @Entity
 public class Post {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -76,6 +77,4 @@ public class Post {
     public void setPublished(Date published) {
         this.published = published;
     }
-
-
 }

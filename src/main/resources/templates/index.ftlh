@@ -2,10 +2,10 @@
 [#import '_imports/common.ftlh' as c]
 <link rel="stylesheet" href="/css/style.css">
 [@c.page]
-    <h1>BLOG</h1>
+    <h1>Zajímavosti ze světa živočichů</h1>
     <table>
         <thead>
-            <tr class="zahlavi">
+            <tr>
                 <th>Slug</th><th>Autor</th><th>Perex</th><th>Publikováno</th><th></th>
             </tr>
         </thead>

@@ -48,48 +48,10 @@ table {
     margin-bottom: 1.5rem;
 }
 
-form {
-    width: 36em;
-    border: 1px solid gray;
-    background-color: #cce6ff;
-    margin: 1em;
-    padding: 1.5em;
-    box-shadow: 5px 5px 10px black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: box-shadow 0.2s, transform 0.2s;
-}
-
-form label {
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
-form input[type="text"],
-form textarea,
-form input[type="date"] {
-    width: calc(100% - 20px);
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: 1rem;
-}
-
-form input[type="submit"] {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 3px;
-}
-
 h1 {
     margin-left: 15px;
     margin-top: 40px;
+    margin-bottom: 35px;
 }
 
 form input[type="submit"]:hover {
@@ -103,7 +65,5 @@ form input[type="submit"]:hover {
 
 .back-link:hover {
     text-decoration: underline;
-
-
 
 }

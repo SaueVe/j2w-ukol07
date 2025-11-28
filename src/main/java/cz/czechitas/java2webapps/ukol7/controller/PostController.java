@@ -7,14 +7,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Date;
 import java.util.List;
-
 
 @Controller
 public class PostController {
@@ -34,14 +30,10 @@ public class PostController {
         return "index";
     }
 
-
     @GetMapping("/post/{slug}")
     public String postDetail(Model model, @PathVariable("slug") String slug) {
         List<Post> posts = postService.singlePost(slug);
         model.addAttribute("posts", posts);
         return "post";
     }
-
-
-
 }
